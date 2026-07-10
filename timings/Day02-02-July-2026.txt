@@ -1,0 +1,17 @@
+What I did today
+1 hour - Revised Ansible (service module, enable & start nginx)
+45 mins - Practiced Terraform basics (provider, EC2 instance, tags)
+45 mins - Revised Kubernetes Deployment and replicas
+30 mins - Practiced Docker commands (images & containers)
+20 mins - Wrote a Shell Script to check disk usage
+45 mins - Coding practice
+30 mins - Git branch creation, commit, and push
+
+
+Tomorrow's Task
+Revise Kubernetes Services
+Learn Terraform variables
+Practice Docker volumes
+1 hour coding
+30 mins English speaking
+Revise today's notes
