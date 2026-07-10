@@ -1,0 +1,16 @@
+Day 03 - Timings
+What I did today
+1 hour - Revised Ansible (Install Apache using yum, service module, enable & start service)
+45 mins - Practiced Terraform (EC2 instance creation with t3.medium and tags)
+45 mins - Revised Kubernetes ReplicaSet (3 replicas, labels, selectors)
+30 mins - Wrote and understood Shell Script (whoami, groups)
+45 mins - Practiced Docker (Nginx image, Dockerfile, COPY instruction, docker build & run)
+30 mins - Git (created Day 03 branch, committed changes, and pushed to GitHub)
+
+Tomorrow's Task
+Revise Kubernetes Pods, ReplicaSets, and Deployments
+Learn Terraform variables and outputs
+Practice more Docker commands
+1 hour coding practice
+30 mins English speaking/reading
+Review today's notes before sleeping
