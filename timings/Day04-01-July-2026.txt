@@ -1,0 +1,18 @@
+Day 04 - Timings
+What I did today
+1 hour - Revised Jenkins basics and created a simple CI pipeline (Build, Test, Deploy)
+45 mins - Learned GitLab CI/CD pipeline stages and understood the .gitlab-ci.yml structure
+45 mins - Practiced Ansible (Install, configure, and start Nginx using template and service modules)
+45 mins - Revised Terraform Security Groups (SSH, HTTP, ingress & egress rules)
+45 mins - Practiced Docker (Apache image, Dockerfile, index.html, and web server setup)
+30 mins - Git (created Day 04 branch, committed changes, and pushed to GitHub)
+
+
+Tomorrow's Task
+Revise Jenkins pipeline syntax and stages
+Learn GitLab CI/CD variables and runners
+Practice Terraform EC2 + Security Group together
+Revise Docker networking basics
+1 hour coding practice
+30 mins English speaking/reading
+Review today's notes before sleeping

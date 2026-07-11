@@ -1,0 +1,16 @@
+What I did today
+1 hour - Revised Ansible basics (playbooks, hosts, become, tasks, yum module)
+45 mins - Practiced writing the Ansible playbook manually with comments
+45 mins - Revised Docker basics (docker run, Dockerfile, FROM, CMD)
+30 mins - Created Dockerfile and understood each instruction
+45 mins - Practiced Git (created daily branch, commit, push)
+30 mins - Solved coding problems
+45 mins - English speaking and technical communication practice
+
+
+Tomorrow's Task
+Revise Docker images, containers, and Docker commands
+Learn Ansible inventory and ad-hoc commands
+1 hour coding practice
+30 mins Git revision
+45 mins English reading/speaking
