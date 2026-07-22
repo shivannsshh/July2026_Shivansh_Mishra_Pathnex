@@ -1,0 +1,115 @@
+#Ansible - Install & Enable Nginx
+
+- name: Install and start Nginx on Pathnex  #only for readability
+  hosts: all                #it runs this playbook on all serveres mention in the inventory 
+  become: yes               # it execute tasks with root powers
+
+  tasks:                    #list of tasks ansible will perform
+    - name: Install nginx   #Task1 Install the nginx package
+      yum:
+        name: nginx         #package name to install
+        state: present      #ensure nginx is installed if already installed, ansible does nothing
+
+    - name: Enable nginx    #Task2 Start and enable the nginx service
+      service:              #manage linux services
+        name: nginx         #service name
+        state: started      #it start the service if it isnt already running
+        enabled: yes        # enable nginx to start automatically after every reboot
+
+
+Terraform - EC2 Instance with Tags
+
+provider "aws" {
+    region = "us-east-1"  #AWS Region where resources will be created
+}
+
+#Create an ec2 VM
+resource "aws_instance" "PathnexEC2" {
+
+ ami = "ami-0xxxxxxx"       #amazon machine image
+
+}
+
+
+instance_type = "r5.2xlarge"
+
+#Tags help identify resources
+tags = {
+
+Name = "Pathnex-Server"   #server name
+
+Environment = "Training"   # environment
+
+Owner = "PathnexStudent"   ## owner of this instance
+}
+
+
+
+#Kubernetes Deployment
+
+apiVersion: app/v1                #k8s api version
+kind: Deployment                  #resource type
+metadata:                         #deployment information
+    name: pathnex-deployment      #deployment name
+
+    spec:
+      replicas: 2                 # maintain 2 pods at all times
+#Deployment manages pods having this label      
+      selector:
+        matchLabels:
+           app: pathnex-app
+
+
+#Blueprint for creating pods
+template:
+
+metadata:
+    labels:          #label assigned to new pods
+        app: pathnex-app
+
+        spec:
+
+        containers:     #containers running inside each pod
+        contaiers:
+
+        - name app   #container Name
+        #Docker image to run 
+          image: nginx
+          ports:
+
+             - containerPort: 80
+
+
+
+
+#Shell Script
+
+#!/bin/bash
+
+#use  bash shell to execute this Script
+
+# show disk usage in human-readable format
+
+df -h
+
+
+#Docker Commands
+docker pull ubuntu # pull the image from registry
+docker images    #show the images
+docker ps -a  #shows running plus stopped containers
+
+
+
+
+
+#Dockerfile
+
+# Use Ubuntu 22.04 as the base image
+FROM ubuntu:22.04
+
+# Run this command while building the image
+# Updates the package list
+RUN apt update
+
+# Default command executed when the container starts
+CMD ["echo", "Hello Pathnex"]
