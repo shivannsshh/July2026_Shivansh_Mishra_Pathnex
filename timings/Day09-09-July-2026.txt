@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned how to integrate Docker with Jenkins and GitLab CI/CD pipelines.
+- Practiced writing an Ansible playbook to pull the Nginx Docker image and deploy it as a running container with port mapping.
+- Explored Terraform by provisioning an AWS Auto Scaling Group (ASG) using a Launch Configuration for scalable EC2 infrastructure.
+- Learned Kubernetes Horizontal Pod Autoscaler (HPA) concepts to automatically scale application pods based on CPU utilization.
+- Created a Jenkins Pipeline to automate Kubernetes deployments using `kubectl apply`.
+- Learned how to configure a GitLab CI/CD pipeline to deploy Kubernetes manifests automatically.
+- Practiced using Docker environment variables (`ENV`) inside a Dockerfile to configure containerized applications.
+- Strengthened my understanding of container orchestration, infrastructure automation, and CI/CD deployment workflows.
+
+## Tomorrow's Task
+
+- Continue practicing Kubernetes scaling and deployment strategies.
+- Learn Kubernetes Ingress, Services, and networking concepts.
+- Explore advanced Terraform resources and infrastructure automation.
+- Practice Jenkins and GitLab CI/CD pipelines with multi-stage deployments.
+- Continue hands-on Docker and Kubernetes integration.
