@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned the fundamentals of AWS CloudFormation and advanced Kubernetes concepts.
+- Practiced writing an Ansible playbook to automate Docker installation and enable the Docker service on Linux servers.
+- Learned Terraform infrastructure provisioning by creating an AWS VPC and provisioning an EC2 instance within the VPC.
+- Explored Kubernetes Pod configuration with volume mounts using `hostPath` volumes for persistent data access.
+- Wrote a Shell script to monitor the status of essential system services such as Nginx, Docker, and Apache (httpd).
+- Created and containerized a simple Node.js application using Docker.
+- Learned how to write a Dockerfile for a Node.js application, including setting the working directory, copying application files, and running the application inside a container.
+- Understood the standard application deployment path (`/opt/pathnex/node-app`) used inside the Docker container.
+
+## Tomorrow's Task
+
+- Continue practicing CloudFormation templates for AWS resource provisioning.
+- Explore advanced Kubernetes resources such as Deployments, Services, ConfigMaps, and Secrets.
+- Practice Terraform by provisioning additional AWS infrastructure components.
+- Learn advanced Ansible concepts, including roles, variables, and inventory management.
+- Continue Docker and Kubernetes hands-on practice by deploying multi-container applications.
