@@ -1,0 +1,19 @@
+# What I did today
+
+- Learned application scaling and infrastructure automation concepts in cloud environments.
+- Practiced writing an Ansible playbook to configure an AWS Auto Scaling Group (ASG) with launch configurations and desired instance capacity.
+- Explored Terraform by provisioning an AWS Application Load Balancer (ALB) and integrating it with EC2 instances.
+- Learned Kubernetes Horizontal Pod Autoscaler (HPA) concepts to automatically scale application pods based on CPU utilization and improve application availability.
+- Studied Kubernetes Deployment and Load Balancer integration for scalable containerized applications.
+- Created a Jenkins Pipeline using parallel stages to execute Build and Test processes simultaneously before deployment.
+- Configured a GitLab CI/CD pipeline with parallel Build and Test stages followed by automated Kubernetes deployment.
+- Practiced Docker volume management by creating persistent storage using Docker Volumes and understanding their role in preserving application data.
+- Learned how to create and manage Docker volumes for stateful containerized applications.
+
+# Tomorrow's Task
+
+- Continue learning advanced Kubernetes scaling and networking concepts.
+- Practice Terraform by provisioning highly available AWS infrastructure.
+- Explore advanced Jenkins and GitLab CI/CD pipeline optimizations.
+- Learn Docker networking and multi-container application deployment.
+- Continue hands-on practice with infrastructure automation and cloud-native deployments.
