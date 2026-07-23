@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned advanced Kubernetes, Jenkins, and GitLab CI/CD concepts.
+- Practiced writing an Ansible playbook to deploy multiple Docker containers for web and database applications.
+- Explored Terraform by creating an AWS VPC with both public and private subnets to understand network segmentation.
+- Learned how to deploy stateful applications in Kubernetes using StatefulSets with Persistent Volume Claims (PVCs).
+- Created a Jenkins Pipeline to automate Docker image build, push, and Kubernetes deployment.
+- Learned how to configure a GitLab CI/CD pipeline to automate the complete build, push, and deployment workflow for Kubernetes.
+- Practiced Dockerfile instructions such as `WORKDIR` and `COPY` to organize application files inside a container.
+- Understood the standard deployment path (`/opt/pathnex/devops-project`) used for containerized applications.
+
+# Tomorrow's Task
+
+- Continue practicing Kubernetes StatefulSets, Persistent Volumes, and Storage Classes.
+- Learn advanced Kubernetes networking and Ingress controllers.
+- Explore Terraform modules and reusable infrastructure configurations.
+- Practice advanced CI/CD workflows with Jenkins and GitLab.
+- Continue hands-on Docker and Kubernetes deployment exercises.
