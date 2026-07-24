@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned advanced DevOps concepts, including multi-cloud deployments, application auto-healing, and enterprise CI/CD workflows.
+- Practiced writing an Ansible playbook to configure auto-healing for Nginx using Systemd by enabling automatic service restart and reloading the Systemd daemon.
+- Explored Terraform by provisioning infrastructure across both AWS and Azure, including AWS VPCs, EC2 instances, Azure Virtual Networks, and Azure Linux Virtual Machines.
+- Learned Kubernetes self-healing mechanisms by configuring Liveness Probes and Readiness Probes to improve application reliability and availability.
+- Created a Jenkins CI/CD pipeline to automate Docker image building, testing, Kubernetes deployment, and rollout verification using `kubectl rollout status`.
+- Configured a GitLab CI/CD pipeline for multi-cloud deployments by deploying Kubernetes applications to both AWS and Azure clusters.
+- Practiced deploying a MySQL container using Docker and learned how to configure environment variables for database initialization.
+- Strengthened my understanding of multi-cloud infrastructure, Kubernetes self-healing capabilities, automated deployments, and production-ready DevOps workflows.
+
+# Tomorrow's Task
+
+- Continue learning advanced Kubernetes deployment strategies and cluster management.
+- Practice Terraform modules for reusable multi-cloud infrastructure provisioning.
+- Explore advanced Ansible automation with roles and dynamic inventories.
+- Build complete end-to-end CI/CD pipelines integrating Jenkins, GitLab CI/CD, Docker, Terraform, Kubernetes, AWS, and Azure.
+- Continue hands-on practice with cloud-native infrastructure automation and container orchestration.
