@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned advanced Kubernetes concepts using Helm for package management and application deployment.
+- Practiced writing an Ansible playbook to install Helm on a Linux server, including downloading, extracting, and configuring the Helm binary.
+- Explored Terraform by provisioning an AWS EC2 instance with an Elastic IP (EIP) for a static public IP address.
+- Learned how to deploy Kubernetes applications using Helm Charts and understood the benefits of package management in Kubernetes.
+- Created a multi-stage Jenkins Pipeline to automate source code checkout, Docker image build, image push to Docker Hub, and Kubernetes deployment.
+- Configured a GitLab CI/CD pipeline to automate Docker image build, push, and application deployment using Helm.
+- Practiced Docker networking concepts by exposing container ports using the `EXPOSE` instruction and mapping container ports to host ports with `docker run`.
+- Strengthened my understanding of integrating Docker, Jenkins, GitLab CI/CD, Helm, Terraform, and Kubernetes into an automated deployment workflow.
+
+## Tomorrow's Task
+
+- Continue learning advanced Kubernetes concepts, including Helm chart customization and releases.
+- Practice Terraform with advanced AWS resources and modules.
+- Explore Kubernetes Ingress Controllers and networking.
+- Build complete CI/CD pipelines integrating Jenkins, GitLab CI/CD, Docker, and Helm.
+- Continue hands-on practice with cloud infrastructure automation.
