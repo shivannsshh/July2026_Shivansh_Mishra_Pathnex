@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned how to automate cloud infrastructure using Terraform and Ansible.
+- Practiced writing an Ansible playbook to install and configure Nginx with a custom configuration file.
+- Learned how to provision an AWS EC2 instance with an IAM Role using Terraform for secure access management.
+- Explored Kubernetes ConfigMap and Secret management for storing application configuration and sensitive data.
+- Wrote a Shell script to archive system log files using the `tar` command for backup and maintenance purposes.
+- Created and containerized a simple Java application using Docker.
+- Learned how to write a Dockerfile for a Java application, including compiling the source code, configuring the working directory, and running the application inside a Docker container.
+- Understood the standard deployment path (`/opt/pathnex/java-app`) for Java applications inside Docker containers.
+
+## Tomorrow's Task
+
+- Continue learning advanced Terraform concepts, including modules and remote state management.
+- Practice Ansible roles, handlers, and reusable playbooks.
+- Explore advanced Kubernetes resources such as Deployments, Services, Ingress, and Persistent Volumes.
+- Learn Docker image optimization and multi-stage builds.
+- Continue hands-on practice with infrastructure automation and containerized application deployment.
