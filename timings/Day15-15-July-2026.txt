@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned advanced infrastructure automation using Terraform, Ansible, and CI/CD pipelines.
+- Practiced writing an Ansible playbook to deploy a web application across multiple Linux hosts and automate service management.
+- Explored Terraform by provisioning an AWS EC2 instance integrated with an Application Load Balancer (ALB) for high availability and traffic distribution.
+- Learned how to deploy Redis on Kubernetes using a Helm Chart with persistent storage enabled for stateful workloads.
+- Created a Jenkins multi-environment CI/CD pipeline to automate Docker image building, testing, and environment-specific deployments to Kubernetes.
+- Configured a GitLab CI/CD pipeline for environment-based deployments, automatically deploying to development or production based on the Git branch.
+- Practiced Dockerfile optimization by using multiple `RUN` commands to install packages efficiently during image creation.
+- Strengthened my understanding of infrastructure automation, Kubernetes package management, and environment-specific deployment strategies.
+
+# Tomorrow's Task
+
+- Continue learning advanced Kubernetes deployment strategies and Helm chart customization.
+- Practice Terraform modules and advanced AWS infrastructure provisioning.
+- Explore Ansible roles, inventories, and reusable playbooks.
+- Build complete end-to-end CI/CD pipelines integrating Jenkins, GitLab CI/CD, Docker, Helm, and Kubernetes.
+- Continue hands-on practice with cloud-native infrastructure automation.

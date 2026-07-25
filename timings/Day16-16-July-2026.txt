@@ -1,0 +1,19 @@
+# What I did today
+
+- Learned advanced cloud infrastructure automation and multi-region deployment concepts using AWS services.
+- Practiced writing an Ansible playbook to automate the creation and provisioning of Amazon EC2 instances across multiple AWS regions.
+- Explored Terraform by provisioning multi-region VPCs and EC2 instances to understand highly available and geographically distributed cloud architectures.
+- Learned Kubernetes multi-cluster deployment concepts and explored deploying applications across different Kubernetes clusters.
+- Studied Kubernetes Services and multi-cluster application networking using Federation concepts.
+- Created a Jenkins CI/CD pipeline to automate Docker image building, testing, and deployment to multiple Kubernetes clusters based on the target environment.
+- Configured a GitLab CI/CD pipeline for automated multi-region Kubernetes deployments using branch-based deployment strategies.
+- Practiced Docker containerization by executing shell scripts inside containers, including setting the working directory, copying startup scripts, assigning execution permissions, and running scripts automatically when the container starts.
+- Strengthened my understanding of cloud automation, multi-region deployments, Kubernetes orchestration, Docker, and enterprise CI/CD workflows.
+
+# Tomorrow's Task
+
+- Continue learning advanced Kubernetes multi-cluster management and networking.
+- Practice Terraform modules for reusable and scalable infrastructure provisioning.
+- Explore advanced Ansible concepts such as dynamic inventory and reusable roles.
+- Build complete end-to-end CI/CD pipelines integrating Jenkins, GitLab CI/CD, Docker, Terraform, and Kubernetes.
+- Continue hands-on practice with cloud-native architecture and infrastructure automation.
