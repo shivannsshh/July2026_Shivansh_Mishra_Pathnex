@@ -1,0 +1,17 @@
+# What I did today
+
+- Set up HAProxy with Ansible for load balancing, including installation, configuration, and service startup.
+- Worked with Terraform to provision a multi‑region auto‑scaling group and an AWS Application Load Balancer.
+- Deployed a Kubernetes Horizontal Pod Autoscaler to manage Nginx replicas based on CPU usage.
+- Built a Jenkins pipeline using a Blue‑Green deployment strategy to handle Docker builds, testing, and Kubernetes rollouts.
+- Configured a GitLab CI/CD pipeline for Blue‑Green deployments, covering Docker build, push, and Kubernetes rollout verification.
+- Ran a Redis container with Docker and mounted persistent storage to `/data`.
+- Improved my understanding of high availability, multi‑region deployments, and auto‑scaling strategies across Ansible, Terraform, Kubernetes, Jenkins, GitLab CI/CD, and Docker.
+
+# Tomorrow's Task
+
+- Explore advanced Kubernetes deployment strategies such as Canary and Rolling updates.
+- Practice writing Terraform modules for reusable multi‑cloud infrastructure.
+- Work with Ansible roles and dynamic inventories for more flexible automation.
+- Build a complete end‑to‑end CI/CD pipeline integrating Jenkins, GitLab CI/CD, Docker, Terraform, Kubernetes, AWS, and Azure.
+- Continue hands‑on practice with cloud‑native automation and container orchestration for production‑ready workflows.
