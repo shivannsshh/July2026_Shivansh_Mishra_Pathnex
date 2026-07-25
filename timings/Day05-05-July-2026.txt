@@ -1,0 +1,19 @@
+# What I did today
+
+- Learned advanced CI/CD concepts and infrastructure provisioning.
+- Created a Jenkins Pipeline (Jenkinsfile) integrated with Git, including stages for repository cloning, build, testing, and deployment.
+- Explored GitLab CI/CD by creating a pipeline with stages for building a Docker image, pushing it to a registry, and deploying the application using Kubernetes.
+- Practiced writing Ansible playbooks to automate user creation and configure file ownership and permissions.
+- Learned Terraform basics by provisioning an AWS EC2 instance with tags and an additional EBS volume.
+- Created a simple Python application and containerized it using Docker.
+- Learned how to write a Dockerfile, copy application files into a container, define the working directory, and execute the application inside the container.
+- Understood the standard application deployment path (`/opt/pathnex/python-app`) used inside a Docker container.
+
+#Tomorrow's Task
+
+- Practice creating complete CI/CD pipelines using Jenkins and GitLab CI/CD.
+- Explore advanced Docker concepts, including image optimization and container networking.
+- Continue learning Terraform by provisioning additional AWS resources.
+- Practice Ansible automation with multiple hosts and roles.
+- Revise Kubernetes deployment manifests and integrate them with CI/CD pipelines.
+
