@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned the fundamentals of Docker and CI/CD pipelines.
+- Practiced writing an Ansible playbook to install Docker Compose and its required dependencies on Linux systems.
+- Learned how to provision an AWS EC2 instance with a Security Group and an additional EBS volume using Terraform.
+- Explored Kubernetes Service configuration using the NodePort service type to expose applications externally.
+- Created a Jenkins Pipeline to automate Docker image build and push operations to a Docker registry.
+- Learned how to configure a GitLab CI/CD pipeline to build and push Docker images automatically.
+- Practiced creating a lightweight Docker image using Alpine Linux and understood its benefits for containerized applications.
+- Strengthened my understanding of integrating Docker with CI/CD pipelines for automated application deployment.
+
+## Tomorrow's Task
+
+- Continue practicing Docker image creation and optimization.
+- Learn advanced CI/CD concepts, including automated testing and deployment strategies.
+- Explore Kubernetes Deployments, Ingress, and networking.
+- Practice additional Terraform modules and AWS infrastructure provisioning.
+- Continue hands-on learning with Ansible automation.
