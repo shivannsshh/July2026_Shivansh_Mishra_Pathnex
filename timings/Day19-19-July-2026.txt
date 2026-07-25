@@ -1,0 +1,19 @@
+# What I did today
+
+- Learned advanced DevOps concepts focused on monitoring, logging, and infrastructure observability.
+- Practiced writing an Ansible playbook to install and configure Prometheus along with Node Exporter for server monitoring.
+- Explored Terraform by configuring AWS CloudWatch Log Streams to centralize and monitor application and infrastructure logs.
+- Learned Kubernetes logging concepts by deploying Fluentd for log collection and forwarding within a Kubernetes cluster.
+- Studied Kubernetes Services for exposing Fluentd and enabling centralized logging.
+- Created a Jenkins CI/CD pipeline that integrates deployment with monitoring by deploying applications to Kubernetes and observing pod status during rollout.
+- Configured a GitLab CI/CD pipeline to automate application deployment while monitoring Kubernetes workloads after deployment.
+- Built and containerized a simple Python Flask application using Docker, including configuring the working directory, installing dependencies, and running the application inside a container.
+- Strengthened my understanding of monitoring, centralized logging, observability, and production-ready CI/CD workflows.
+
+# Tomorrow's Task
+
+- Continue learning advanced monitoring tools such as Grafana and Alertmanager.
+- Explore Kubernetes logging and monitoring architecture in greater depth.
+- Practice Terraform for provisioning additional monitoring and security resources.
+- Build end-to-end CI/CD pipelines integrating monitoring, logging, and automated deployments.
+- Continue hands-on practice with cloud-native observability and infrastructure automation.
