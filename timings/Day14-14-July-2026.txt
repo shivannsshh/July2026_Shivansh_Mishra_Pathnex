@@ -1,0 +1,19 @@
+# What I did today
+
+- Learned advanced Kubernetes concepts with a focus on multi-environment application deployments.
+- Practiced writing an Ansible playbook to install and configure Nginx as a reverse proxy for backend applications.
+- Explored Terraform by provisioning an AWS S3 bucket with versioning and access logging enabled for secure and reliable object storage.
+- Learned how to configure Kubernetes Ingress using the NGINX Ingress Controller to route external traffic to Kubernetes services.
+- Created a Jenkins Pipeline with separate Build, Test, and Deploy stages to automate the CI/CD workflow.
+- Configured a GitLab CI/CD pipeline to build, push, and deploy applications to Kubernetes using Helm.
+- Learned how to perform Helm upgrades and installations for managing Kubernetes application releases.
+- Studied the difference between Docker `CMD` and `ENTRYPOINT` instructions and understood when each should be used while creating Docker images.
+- Strengthened my understanding of Kubernetes networking, infrastructure automation, and deployment best practices.
+
+## Tomorrow's Task
+
+- Continue learning advanced Kubernetes networking and service discovery.
+- Explore Helm chart customization and release management.
+- Practice Terraform with additional AWS services and infrastructure modules.
+- Build complete CI/CD pipelines integrating Jenkins, GitLab CI/CD, Docker, Helm, and Kubernetes.
+- Continue hands-on practice with cloud infrastructure automation and container orchestration.

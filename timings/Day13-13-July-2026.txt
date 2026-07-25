@@ -1,0 +1,19 @@
+# What I did today
+
+- Learned advanced infrastructure automation concepts using CloudFormation and CI/CD practices.
+- Practiced writing an Ansible playbook to install and configure Nginx across multiple Linux nodes.
+- Explored Terraform by creating AWS IAM users and IAM policies to manage secure access and permissions.
+- Learned how to deploy Nginx on Kubernetes using ConfigMaps and Secrets for externalized configuration and secure data management.
+- Practiced mounting ConfigMaps and Secrets inside Kubernetes Pods to manage application configuration dynamically.
+- Studied Jenkins Multi-Branch Pipeline concepts and created a pipeline to automate Docker image building and Kubernetes deployment.
+- Learned advanced GitLab CI/CD deployment workflows using Helm for Kubernetes application deployments.
+- Understood the difference between Docker `COPY` and `ADD` instructions and their appropriate use cases while building Docker images.
+- Strengthened my understanding of automation, Kubernetes configuration management, and CI/CD best practices.
+
+# Tomorrow's Task
+
+- Continue learning advanced Kubernetes concepts, including Ingress Controllers and Persistent Volumes.
+- Practice AWS CloudFormation templates for infrastructure provisioning.
+- Explore advanced Terraform modules and state management.
+- Build end-to-end CI/CD pipelines integrating Jenkins, GitLab CI/CD, Docker, and Kubernetes.
+- Continue hands-on practice with infrastructure automation and cloud-native application deployment.
