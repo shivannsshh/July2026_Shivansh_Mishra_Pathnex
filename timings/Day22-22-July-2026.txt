@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned how to use Ansible Handlers to restart services only when configuration changes are detected, improving automation efficiency.
+- Practiced configuring Nginx using an Ansible playbook and triggering a handler to restart the service after configuration updates.
+- Explored Terraform by creating an AWS Security Group to allow inbound HTTP traffic and understood its role in securing cloud infrastructure.
+- Learned Kubernetes DaemonSet concepts and deployed a DaemonSet to ensure a monitoring container runs on every node in the cluster.
+- Practiced writing a Shell script to monitor Linux disk usage using the `df` command and display the current disk utilization.
+- Created a Jenkins Pipeline that automatically polls the source code repository and executes builds only when a Git tag is detected.
+- Learned how to configure GitLab CI/CD pipelines to trigger jobs only for tagged releases, which is useful for production deployments.
+- Strengthened my understanding of Infrastructure as Code (IaC), Kubernetes node-level workloads, Linux monitoring, and event-driven CI/CD automation.
+
+# Tomorrow's Task
+
+- Continue practicing advanced Kubernetes workloads such as StatefulSets and Jobs.
+- Explore Terraform networking and security best practices.
+- Learn advanced Jenkins pipeline features and shared libraries.
+- Practice Linux monitoring and automation through Shell scripting.
+- Continue hands-on learning with cloud infrastructure, automation, and CI/CD pipelines.scripting
