@@ -1,0 +1,18 @@
+# What I did today
+
+- Worked on a debugging exercise by identifying and fixing intentionally broken DevOps configuration files.
+- Corrected syntax and formatting issues in Ansible playbooks, including proper YAML structure, module parameters, and playbook configuration.
+- Fixed Terraform configuration errors by correcting resource definitions, attribute syntax, and infrastructure code formatting.
+- Debugged Kubernetes Deployment manifests by resolving YAML syntax errors, metadata structure, selectors, labels, and container specifications.
+- Learned the importance of validating Infrastructure as Code (IaC) configurations before deployment.
+- Studied secure secrets management in Jenkins by using the **withCredentials** plugin instead of hardcoding sensitive information in pipelines.
+- Learned GitLab CI/CD security best practices by using CI/CD Variables to securely store API keys, passwords, and other sensitive credentials instead of embedding them in pipeline files.
+- Improved my understanding of DevOps security best practices, debugging techniques, Infrastructure as Code validation, and secure CI/CD pipeline implementation.
+
+## Tomorrow's Task
+
+- Practice debugging more Ansible, Terraform, and Kubernetes configurations.
+- Learn additional DevOps security best practices for managing secrets and credentials.
+- Explore Infrastructure as Code validation tools and linting techniques.
+- Continue hands-on practice with Jenkins and GitLab CI/CD security features.
+- Strengthen troubleshooting skills for cloud infrastructure and containerized applications.
