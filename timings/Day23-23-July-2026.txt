@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned user management automation using Ansible by creating Linux users and adding descriptive comments for account identification.
+- Practiced provisioning and associating an AWS Elastic IP (EIP) with an EC2 instance using Terraform to provide a static public IP address.
+- Explored Kubernetes Horizontal Pod Autoscaler (HPA) to automatically scale application pods based on CPU utilization and improve application performance.
+- Wrote a Shell script to identify and terminate the highest CPU-consuming process using Linux process management commands.
+- Created a Jenkins Pipeline to automate Docker image building with custom labels for project, environment, team, and institute information.
+- Learned how to build Docker images in GitLab CI/CD using Docker-in-Docker (DinD) and automate image creation during the CI pipeline.
+- Improved my understanding of Docker image labeling, infrastructure automation, Kubernetes autoscaling, and CI/CD workflow automation.
+- Strengthened my practical knowledge of cloud infrastructure, Linux administration, containerization, and DevOps automation.
+
+## Tomorrow's Task
+
+- Continue practicing advanced Kubernetes resources and autoscaling concepts.
+- Explore Terraform networking and advanced AWS infrastructure provisioning.
+- Learn Docker image optimization and container security best practices.
+- Practice advanced Jenkins and GitLab CI/CD pipeline automation.
+- Continue hands-on learning with cloud infrastructure, automation, and container orchestration.
