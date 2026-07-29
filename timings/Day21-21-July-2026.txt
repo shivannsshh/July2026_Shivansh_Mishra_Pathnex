@@ -1,0 +1,19 @@
+# What I did today
+
+- Completed the Day 21 Speed Typing (Level 2) hands-on practice session.
+- Practiced writing an Ansible playbook to install, start, and enable the Nginx service on Linux servers.
+- Explored Terraform by provisioning an AWS EC2 instance with tags and understood the use of providers, resources, and metadata.
+- Practiced creating a Kubernetes Deployment manifest with multiple replicas, labels, selectors, and container definitions.
+- Wrote a Shell script to display the current date, system uptime, and disk usage for basic Linux system monitoring.
+- Learned how to create a Jenkins multi-environment CI/CD pipeline for Dev, Staging, and Production deployments, including manual approval gates before promoting deployments.
+- Explored GitLab CI/CD multi-environment deployment pipelines using manual jobs for Staging and Production environments.
+- Improved my speed and accuracy while writing Infrastructure as Code (IaC), Kubernetes manifests, Shell scripts, and CI/CD pipeline configurations.
+- Strengthened my understanding of deployment workflows, automation, and environment promotion strategies used in production DevOps practices.
+
+## Tomorrow's Task
+
+- Continue practicing Infrastructure as Code and Kubernetes manifests with a focus on speed and accuracy.
+- Explore advanced Jenkins and GitLab CI/CD pipeline features.
+- Practice Shell scripting for automation and system administration tasks.
+- Learn advanced Kubernetes deployment strategies and troubleshooting techniques.
+- Continue hands-on practice with cloud infrastructure automation and DevOps workflows.
