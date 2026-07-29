@@ -1,0 +1,145 @@
+Debug Day
+
+Fix these intentionally broken files:
+
+## 🔹 Ansible — Broken
+
+- name Install stuff
+  hosts all
+  tasks:
+   -name: install
+    yum:
+      name httpd
+      state present
+
+
+## Fixed:
+
+- name: Install Apache
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install httpd
+      yum:
+        name: httpd
+        state: preset
+
+
+
+## 🔹 Terraform — Broken
+
+resource aws_instance "Bad" {
+ ami "ami-123"
+ instance_type c6i.8xlarge
+}
+
+
+
+#Fixed:
+
+resource "aws_instance" "example" {
+    ami  = "ami-943422"
+    instance_type = "c6i.8xlarge"
+
+}
+
+
+## 🔹 Kubernetes — Broken
+
+apiVersion apps/v1
+kind Deployment
+metadata:
+ name broken-app
+spec:
+replicas:3
+selector:
+ matchLabels:
+   app: broken
+template:
+ metadata:
+  labels:
+   app: broken
+ spec:
+  containers:
+   -name: app
+    image nginx
+
+
+
+## Fixed:
+
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+ name: fixed-app
+
+ spec:
+  replicas: 3
+
+
+  selector:
+   matchLabels:
+    app: fixed
+
+  template:
+   metadata:
+    labels:
+     app: fixed
+
+   spec:
+    containers:
+     - name: app
+       image: nginx
+
+
+# Secrets & Credentials
+
+## 🔹 Jenkins Pipeline — Using Credentials
+You will learn how to **use credentials securely in Jenkins**.
+
+pipeline {
+    agent any
+    environment {
+        INSTITUTE_NAME = "Pathnex"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Pathnex/sample-java-app.git'
+            }
+        }
+#not secure we cnt hardcode to cred.
+-----------------------------------------------------------------
+        stage('Use Secret') {
+            steps {
+                withCredentials([string(credentialsId: 'PATHNEX_API_KEY', variable: 'API_KEY')]) {
+                    sh 'echo "Using secret $API_KEY for $INSTITUTE_NAME"'
+                }
+
+-------------------------------------------------------------------------
+
+            }
+        }
+    }
+}
+
+
+
+## 🔹 GitLab CI — Using CI/CD Variables
+You will learn how to **use GitLab CI variables securely**.
+
+stages:
+  - build
+
+variables:
+  INSTITUTE_NAME: "Pathnex"
+  API_KEY: "PLACEHOLDER_SECRET"  ## Fixed: Dont harcode ur api key and any security breach related pass etc. not secure and not a good practice
+
+build:
+  stage: build
+  image: alpine:latest
+  script:
+    - echo "Using secret $API_KEY for $INSTITUTE_NAME"
+
