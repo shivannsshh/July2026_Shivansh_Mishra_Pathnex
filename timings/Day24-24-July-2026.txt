@@ -1,0 +1,19 @@
+# What I did today
+
+- Learned how to use Ansible Templates (Jinja2) to dynamically generate and deploy configuration files on remote Linux servers.
+- Practiced deploying configuration files using the Ansible `template` module for automated configuration management.
+- Explored Terraform by creating an AWS Application Load Balancer (ALB) Listener and configuring default HTTP responses.
+- Learned Kubernetes Persistent Volumes (PV) and Persistent Volume Claims (PVC) to provide persistent storage for containerized applications.
+- Understood how Kubernetes applications can request and use persistent storage through PVCs.
+- Wrote a menu-driven Shell script using the `case` statement to display system information such as the current date, system uptime, and logged-in users.
+- Created a Jenkins CI/CD pipeline to automate Unit Testing, Integration Testing, and test reporting as part of the software delivery process.
+- Configured a GitLab CI/CD pipeline to execute separate Unit Test and Integration Test stages using Maven.
+- Improved my understanding of configuration management, persistent storage in Kubernetes, infrastructure automation, Linux scripting, and automated software testing.
+
+## Tomorrow's Task
+
+- Continue learning advanced Kubernetes storage and networking concepts.
+- Practice additional Terraform resources for AWS load balancing and networking.
+- Explore advanced Ansible templates, variables, and reusable roles.
+- Build complete CI/CD pipelines with automated testing and deployment.
+- Continue hands-on practice with DevOps automation and cloud infrastructure.
