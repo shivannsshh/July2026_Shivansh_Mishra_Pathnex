@@ -1,0 +1,18 @@
+# What I did today
+
+- Learned how to copy directories recursively using Ansible and practiced using the `copy` module with `remote_src`.
+- Learned how to create an AWS EBS volume using Terraform and attach it to an EC2 instance.
+- Practiced Kubernetes NodePort Services and learned how a Service can expose an application outside the cluster through a NodePort.
+- Created a Shell script to identify and remove old log files based on their modification time.
+- Learned about Jenkins Scripted Pipelines and how they differ from declarative pipelines.
+- Practiced using conditional logic in a Jenkins Scripted Pipeline to perform different actions depending on the deployment environment.
+- Learned how to add manual approval before deploying an application using the Jenkins `input` step.
+- Improved my understanding of file management, AWS storage, Kubernetes networking, Linux log management, and advanced Jenkins pipeline automation.
+
+# Tomorrow's Task
+
+- Continue practicing Ansible file and directory management.
+- Learn more about EBS volumes, snapshots, and storage management.
+- Practice Kubernetes Services and networking concepts.
+- Explore Linux log rotation and automated cleanup.
+- Practice advanced Jenkins scripted pipeline conditions and deployment workflows.
