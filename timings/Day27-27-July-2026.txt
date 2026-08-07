@@ -15,4 +15,4 @@
 - Learn more about EBS volumes, snapshots, and storage management.
 - Practice Kubernetes Services and networking concepts.
 - Explore Linux log rotation and automated cleanup.
-- Practice advanced Jenkins scripted pipeline conditions and deployment workflows.
+- Practice advanced Jenkins scripted pipeline conditions and deployment workflows. 
