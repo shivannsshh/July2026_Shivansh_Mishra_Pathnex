@@ -1,0 +1,20 @@
+# What I did today
+
+- Learned how to automate the installation, configuration, and management of multiple Linux services using Ansible.
+- Practiced installing and enabling HTTPD and Firewalld services and used Ansible loops to start and enable multiple services efficiently.
+- Explored Terraform Route 53 record management and learned how to create an A record that points a domain name to an Elastic IP.
+- Learned Kubernetes Init Containers and understood how they can perform initialization tasks before the main application container starts.
+- Practiced creating a Kubernetes Pod with an Init Container and a main Nginx container.
+- Wrote a Shell script to display basic Linux system information, including hostname, system uptime, and IP address.
+- Learned the concept of dynamic environments in CI/CD pipelines.
+- Created a Jenkins Pipeline that accepts an environment as a parameter and uses it to simulate environment-specific application deployment.
+- Explored GitLab CI/CD Dynamic Environments and learned how environment names and URLs can be generated dynamically from Git branch names.
+- Improved my understanding of Linux service management, DNS automation, Kubernetes initialization workflows, Shell scripting, and dynamic CI/CD deployments.
+
+# Tomorrow's Task
+
+- Continue practicing Ansible service and package management.
+- Explore advanced Route 53 concepts and DNS routing policies.
+- Learn more Kubernetes initialization, lifecycle, and deployment concepts.
+- Practice advanced Shell scripting for system monitoring and automation.
+- Explore advanced Jenkins and GitLab CI/CD environment management.
