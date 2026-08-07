@@ -1,0 +1,19 @@
+# What I did today
+
+- Learned how to use the Ansible `lineinfile` module to modify or update specific lines in existing configuration files.
+- Practiced updating SSH configuration using Ansible by disabling direct root login for improved server security.
+- Explored Terraform by creating an AWS EC2 Key Pair from an existing SSH public key and using Terraform outputs to display the key pair name.
+- Learned how to create a Kubernetes multi-container Pod using the Sidecar pattern, where an additional container can perform supporting tasks such as log generation or collection.
+- Practiced writing a Shell script to count the number of files present in a specified directory using Linux commands.
+- Learned caching concepts in CI/CD pipelines to avoid repeatedly downloading dependencies and improve pipeline execution time.
+- Created a Jenkins Pipeline to check and reuse cached Maven dependencies during the build process.
+- Configured GitLab CI/CD caching to store Maven dependencies using the `cache` configuration and environment-specific cache keys.
+- Improved my understanding of Linux configuration management, AWS authentication, Kubernetes multi-container workloads, Shell scripting, and CI/CD performance optimization.
+
+# Tomorrow's Task
+
+- Continue practicing Ansible configuration management and server security automation.
+- Explore advanced Terraform concepts such as outputs, variables, modules, and remote state.
+- Learn more Kubernetes multi-container patterns and logging architectures.
+- Practice advanced Shell scripting for system administration and monitoring.
+- Explore additional Jenkins and GitLab CI/CD optimization techniques.
