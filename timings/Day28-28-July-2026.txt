@@ -1,0 +1,19 @@
+# What I did today
+
+- Practiced debugging intentionally broken Ansible playbooks and identified syntax and indentation issues in package installation tasks.
+- Debugged a Terraform configuration for creating an AWS S3 bucket and identified missing quotation marks and incorrect resource configuration.
+- Practiced debugging a broken Kubernetes Pod manifest and identified issues with API version, resource structure, metadata, and container configuration.
+- Learned about deployment rollback strategies and why rollback is important when a production deployment fails.
+- Created a Jenkins Pipeline that simulates a deployment failure and handles the failure using try-catch logic.
+- Learned how Jenkins can execute rollback-related actions when a deployment fails.
+- Practiced a GitLab CI/CD rollback strategy using `after_script` to execute cleanup or rollback-related actions after a failed deployment.
+- Improved my troubleshooting skills by working with intentionally broken infrastructure and CI/CD configurations.
+- Strengthened my understanding of failure handling, debugging, and deployment recovery in DevOps environments.
+
+# Tomorrow's Task
+
+- Continue practicing debugging Ansible, Terraform, and Kubernetes configurations.
+- Learn more about real-world deployment rollback strategies such as Kubernetes rollout undo and Blue-Green deployment.
+- Practice Jenkins failure handling and rollback mechanisms.
+- Explore GitLab CI/CD failure recovery and deployment strategies.
+- Practice identifying configuration errors quickly from logs and error messages.
